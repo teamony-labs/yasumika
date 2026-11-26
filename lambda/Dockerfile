@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM haskell:9.10-bookworm AS build
+FROM haskell:9.14-bookworm AS build
 
 WORKDIR /build
 
